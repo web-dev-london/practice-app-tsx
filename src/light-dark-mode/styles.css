@@ -1,0 +1,35 @@
+:root {
+  --bg: #fff;
+  --txt-color: #000;
+  --btn-color: #fff;
+  --btn-bg: #000;
+}
+
+[data-theme='dark'] {
+  --bg: #000;
+  --txt-color: #fff;
+  --btn-color: #ffffff;
+  --btn-bg: #5e5a5a;
+}
+
+.toggle-mode {
+  background-color: var(--bg);
+  height: 100vh;
+  transition: all 0.5s;
+}
+
+.toggle-mode h2 {
+  transition: all 0.5s;
+  color: var(--txt-color);
+}
+
+.toggle-mode p {
+  transition: all 0.5s;
+  color: var(--txt-color);
+}
+
+.toggle-mode button {
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  transition: all 0.5s;
+}
