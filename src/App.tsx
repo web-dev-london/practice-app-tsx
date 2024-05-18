@@ -10,6 +10,8 @@
 // import OutsideClick from "./use-outside-click/OutsideClick"
 // import WindowResizeView from "./window-resize/WindowResizeView"
 // import WeatherView from "./weather-app/WeatherView"
+// import WeatherView from "./weather-app-2/WeatherView"
+
 
 
 
@@ -32,6 +34,7 @@ function App() {
             {/* <Test /> */}
             {/* <OutsideClick /> */}
             {/* <WindowResizeView /> */}
+            {/* <WeatherView /> */}
             {/* <WeatherView /> */}
         </>
     )
