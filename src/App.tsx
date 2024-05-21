@@ -12,6 +12,9 @@
 // import WeatherView from "./weather-app/WeatherView"
 // import WeatherView from "./weather-app-2/WeatherView"
 
+import NavigationView from "./navigation/NavigationView"
+import HomeView from "./pages/home/HomeView"
+
 
 
 
@@ -36,6 +39,8 @@ function App() {
             {/* <WindowResizeView /> */}
             {/* <WeatherView /> */}
             {/* <WeatherView /> */}
+            <NavigationView />
+            <HomeView />
         </>
     )
 }
